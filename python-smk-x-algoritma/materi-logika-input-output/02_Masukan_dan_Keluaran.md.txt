@@ -1,0 +1,123 @@
+Mantap 👍 kita lanjut ke **Bab 2: Masukan (Input) dan Keluaran (Output)**. Saya buatkan lagi dalam format **Markdown (.md)** untuk materi, dan nanti kita bisa bikin file Python `.py` pendampingnya.
+
+---
+
+# 02\_Masukan\_dan\_Keluaran.md
+
+## 🎯 Tujuan Pembelajaran
+
+* Memahami cara program menerima data dari pengguna (**input**).
+* Memahami cara program menampilkan hasil ke layar (**output**).
+* Melatih logika dengan contoh interaktif sederhana.
+
+---
+
+## 🔎 Apa itu Input dan Output?
+
+Dalam pemrograman, ada **dua arah komunikasi**:
+
+* **Input** → data yang dimasukkan pengguna ke dalam program.
+* **Output** → hasil yang ditampilkan program kepada pengguna.
+
+📌 Ibarat percakapan:
+
+* Kamu bertanya = program meminta **input**.
+* Temanmu menjawab = program memberi **output**.
+
+---
+
+## 🖊️ Masukan (Input)
+
+Di Python, masukan dilakukan dengan fungsi `input()`.
+
+Contoh:
+
+```python
+nama = input("Masukkan nama kamu: ")
+print("Halo,", nama)
+```
+
+Jika kita ketik `Rina`, hasilnya:
+
+```
+Masukkan nama kamu: Rina
+Halo, Rina
+```
+
+> ⚡ Catatan: Semua hasil dari `input()` **selalu berupa string** (teks), walaupun kita ketik angka.
+
+---
+
+## 📤 Keluaran (Output)
+
+Keluaran biasanya menggunakan fungsi `print()`.
+
+Contoh:
+
+```python
+print("Belajar Python itu mudah!")
+```
+
+Bisa juga menampilkan beberapa nilai sekaligus:
+
+```python
+nama = "Budi"
+umur = 16
+print("Nama:", nama, "| Umur:", umur)
+```
+
+Hasilnya:
+
+```
+Nama: Budi | Umur: 16
+```
+
+---
+
+## 🔄 Mengolah Input
+
+Karena `input()` menghasilkan **string**, kalau kita ingin angka, harus diubah (konversi).
+
+Contoh:
+
+```python
+angka = int(input("Masukkan angka: "))
+print("Angka dikali 2 =", angka * 2)
+```
+
+Jika kita ketik `5`, hasilnya:
+
+```
+Masukkan angka: 5
+Angka dikali 2 = 10
+```
+
+---
+
+## 🧠 Latihan Logika
+
+1. Buat program meminta umur, lalu tampilkan berapa tahun lagi kamu akan berusia 20.
+
+   * Input: `17`
+   * Output: `Tinggal 3 tahun lagi kamu berusia 20.`
+
+2. Buat program meminta dua angka, lalu tampilkan hasil penjumlahannya.
+
+   * Input: `4` dan `6`
+   * Output: `Jumlahnya adalah 10`
+
+3. Apa yang terjadi kalau kamu lupa mengubah input menjadi `int` dan langsung dijumlahkan?
+
+   * Input: `4` dan `6`
+   * Output: `46` (karena dianggap string, bukan angka).
+
+---
+
+## 🏁 Kesimpulan
+
+* `input()` → untuk meminta data dari pengguna (hasilnya string).
+* `print()` → untuk menampilkan data/hasil ke layar.
+* Gunakan `int()`, `float()`, dll. untuk mengubah input jadi angka agar bisa dihitung.
+
+---
+
