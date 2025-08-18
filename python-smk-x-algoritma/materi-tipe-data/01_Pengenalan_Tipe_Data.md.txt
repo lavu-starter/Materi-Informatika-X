@@ -1,0 +1,110 @@
+Isi dari **01\_Pengenalan\_Tipe\_Data.md** yang saya buat tadi adalah materi penjelasan tipe data dasar Python dengan contoh, latihan logika, dan mini quiz.
+
+Berikut isi lengkapnya biar kamu bisa langsung copy ke GitHub:
+
+---
+
+# 01\_Pengenalan\_Tipe\_Data.md
+
+## 🎯 Tujuan Pembelajaran
+
+* Memahami apa itu tipe data dalam pemrograman.
+* Mengetahui perbedaan tipe data dasar (angka, teks, logika).
+* Melatih logika dengan contoh sederhana.
+
+---
+
+## 🔎 Apa itu Tipe Data?
+
+Tipe data adalah **jenis nilai** yang bisa disimpan di dalam variabel.
+Ibarat **kotak penyimpanan**, setiap kotak hanya cocok untuk barang tertentu.
+
+Contoh sehari-hari:
+
+* Kotak makanan = berisi nasi, lauk → mirip tipe data **string (teks)**
+* Botol air = berisi air → mirip tipe data **float (bilangan desimal)**
+* Saklar lampu = hanya ON atau OFF → mirip tipe data **boolean (True/False)**
+
+---
+
+## 🧩 Tipe Data Dasar di Python
+
+1. **Integer (int)** → bilangan bulat
+
+   ```python
+   umur = 17
+   tahun = 2025
+   ```
+
+   ➡️ Contoh: 5, 100, -3
+
+2. **Float (float)** → bilangan pecahan/desimal
+
+   ```python
+   suhu = 36.5
+   pi = 3.14
+   ```
+
+   ➡️ Contoh: 2.5, -0.7
+
+3. **String (str)** → teks/kalimat
+
+   ```python
+   nama = "Rina"
+   pesan = "Halo Dunia!"
+   ```
+
+   ➡️ Ditulis di antara **"..."** atau **'...'**
+
+4. **Boolean (bool)** → logika benar atau salah
+
+   ```python
+   is_student = True
+   punya_motor = False
+   ```
+
+   ➡️ Hanya ada **True** atau **False**
+
+---
+
+## 🧠 Latihan Logika
+
+Coba pikirkan dan tebak tipe datanya:
+
+1. `"123"` → **...?**
+2. `123` → **...?**
+3. `True` → **...?**
+4. `3.14` → **...?**
+5. `"False"` → **...?**
+
+> 💡 Catatan: `"123"` (pakai tanda petik) **bukan angka**, tapi **teks**!
+
+---
+
+## 🎲 Mini Quiz (Koding)
+
+Jalankan kode berikut, perhatikan hasilnya:
+
+```python
+# Coba cek tipe data dengan fungsi type()
+print(type(123))       # int
+print(type("123"))     # str
+print(type(3.14))      # float
+print(type(True))      # bool
+```
+
+Apakah sesuai tebakanmu di latihan logika tadi?
+
+---
+
+## 🏁 Kesimpulan
+
+* **int** → angka bulat
+* **float** → angka desimal
+* **str** → teks
+* **bool** → logika True/False
+
+> Memahami tipe data penting supaya program kita tidak salah hitung atau salah baca data.
+
+---
+
