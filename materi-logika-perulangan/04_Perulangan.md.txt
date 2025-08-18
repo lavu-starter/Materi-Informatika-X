@@ -1,0 +1,132 @@
+Oke 👍 kita lanjut ke **Bab 4: Perulangan (Looping)**.
+Saya buatkan dulu materi `.md`, nanti kita lanjutkan ke file `.py` untuk latihan.
+
+---
+
+# 04\_Perulangan.md
+
+## 🎯 Tujuan Pembelajaran
+
+* Memahami konsep perulangan dalam program.
+* Mengenal dua jenis perulangan di Python: `for` dan `while`.
+* Melatih logika dengan contoh sederhana dan latihan.
+
+---
+
+## 🔎 Apa itu Perulangan?
+
+Perulangan (looping) adalah **mengulang sebuah perintah berkali-kali secara otomatis**.
+Daripada menulis kode berulang, kita bisa menggunakan loop.
+
+📌 Contoh sehari-hari:
+
+* Menyapa teman satu per satu.
+* Menghitung dari 1 sampai 10.
+* Memutar lagu dalam playlist.
+
+---
+
+## 🖊️ Perulangan `for`
+
+Digunakan untuk mengulang sebanyak jumlah tertentu.
+
+Contoh:
+
+```python
+for i in range(5):
+    print("Halo Python")
+```
+
+Hasil:
+
+```
+Halo Python
+Halo Python
+Halo Python
+Halo Python
+Halo Python
+```
+
+### Perulangan dengan angka
+
+```python
+for i in range(1, 6):
+    print("Angka:", i)
+```
+
+Hasil:
+
+```
+Angka: 1
+Angka: 2
+Angka: 3
+Angka: 4
+Angka: 5
+```
+
+---
+
+## 🔄 Perulangan `while`
+
+Digunakan selama kondisi masih **True**.
+
+Contoh:
+
+```python
+angka = 1
+while angka <= 5:
+    print("Angka:", angka)
+    angka += 1
+```
+
+Hasil:
+
+```
+Angka: 1
+Angka: 2
+Angka: 3
+Angka: 4
+Angka: 5
+```
+
+---
+
+## 🧠 Latihan Logika
+
+1. Cetak angka 1–10 menggunakan `for`.
+2. Cetak angka 10–1 menggunakan `while`.
+3. Program minta input angka, lalu cetak perkalian 1–10 (tabel perkalian).
+
+   * Input: `3`
+   * Output:
+
+     ```
+     3 x 1 = 3
+     3 x 2 = 6
+     ...
+     3 x 10 = 30
+     ```
+
+---
+
+## 🎲 Mini Quiz
+
+Coba jalankan kode ini dan perhatikan hasilnya:
+
+```python
+for huruf in "PYTHON":
+    print(huruf)
+```
+
+Apa yang terjadi? 🤔
+
+---
+
+## 🏁 Kesimpulan
+
+* Gunakan `for` untuk perulangan dengan jumlah pasti.
+* Gunakan `while` untuk perulangan selama kondisi masih benar.
+* Perulangan membuat kode lebih singkat dan efisien.
+
+---
+
