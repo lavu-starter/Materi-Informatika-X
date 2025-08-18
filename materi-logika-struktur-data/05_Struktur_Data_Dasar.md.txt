@@ -1,0 +1,111 @@
+Oke 👍 kita masuk ke **Bab 5: Struktur Data Dasar (List, Tuple, Dictionary)**.
+Saya buat dulu versi materi `.md` biar jelas, lalu kita lanjut ke `.py` untuk latihan kodenya.
+
+---
+
+# 05\_Struktur\_Data\_Dasar.md
+
+## 🎯 Tujuan Pembelajaran
+
+* Mengenal cara menyimpan banyak data dalam satu variabel.
+* Memahami perbedaan **List**, **Tuple**, dan **Dictionary**.
+* Melatih logika dengan contoh sederhana.
+
+---
+
+## 🔎 Mengapa Perlu Struktur Data?
+
+Kalau hanya 1 nilai, cukup dengan variabel biasa:
+
+```python
+nilai1 = 80
+nilai2 = 85
+nilai3 = 90
+```
+
+Tapi kalau banyak data, akan **repot**.
+Solusinya → gunakan **struktur data**.
+
+---
+
+## 🗂️ List
+
+List digunakan untuk menyimpan **banyak data** dan bisa diubah (mutable).
+Ditulis dengan **\[ ]**.
+
+Contoh:
+
+```python
+buah = ["apel", "jeruk", "mangga"]
+print(buah[0])   # apel
+buah.append("pisang")  # tambah data
+print(buah)
+```
+
+---
+
+## 🗂️ Tuple
+
+Tuple mirip List, tapi **tidak bisa diubah** (immutable).
+Ditulis dengan **( )**.
+
+Contoh:
+
+```python
+warna = ("merah", "hijau", "biru")
+print(warna[1])   # hijau
+# warna[0] = "kuning" ❌ (tidak bisa diubah)
+```
+
+---
+
+## 🗂️ Dictionary
+
+Dictionary menyimpan data dalam bentuk **key : value**.
+Ditulis dengan **{ }**.
+
+Contoh:
+
+```python
+siswa = {
+    "nama": "Budi",
+    "umur": 16,
+    "kelas": "XI"
+}
+print(siswa["nama"])  # Budi
+```
+
+---
+
+## 🧠 Latihan Logika
+
+1. Buat list berisi 5 nama temanmu, lalu cetak nama ke-3.
+2. Buat tuple berisi 3 hobi, lalu coba ganti salah satunya (apa yang terjadi?).
+3. Buat dictionary `buku` dengan key: judul, penulis, tahun. Cetak semua datanya.
+
+---
+
+## 🎲 Mini Quiz
+
+Coba jalankan kode ini:
+
+```python
+angka = [1, 2, 3]
+angka = angka + [4, 5]
+print(angka)
+```
+
+Apa hasilnya? 🤔
+
+---
+
+## 🏁 Kesimpulan
+
+* **List** → banyak data, bisa diubah.
+* **Tuple** → banyak data, tidak bisa diubah.
+* **Dictionary** → data pasangan key : value.
+
+Struktur data memudahkan kita menyimpan dan mengolah banyak informasi.
+
+---
+
