@@ -1,0 +1,5 @@
+# List & Tuple Dasar
+- List: mutable, bisa diubah
+- Tuple: immutable, tidak bisa diubah
+- Indexing & slicing
+- Menambahkan, menghapus, mengubah data (list)

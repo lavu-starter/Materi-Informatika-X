@@ -1,0 +1,7 @@
+# Fungsi Lanjutan
+- Fungsi dengan parameter default
+- Fungsi dengan return multiple value
+- Fungsi untuk memproses list atau dictionary
+- Contoh penggunaan:
+  - Menghitung rata-rata nilai
+  - Menampilkan nilai siswa yang lebih dari batas tertentu

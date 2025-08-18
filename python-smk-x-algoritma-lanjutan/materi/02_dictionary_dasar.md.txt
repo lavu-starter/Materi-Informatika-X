@@ -1,0 +1,7 @@
+# Dictionary Dasar
+- Struktur key-value
+- Menambahkan, menghapus, mengakses data
+- Iterasi dictionary dengan .items()
+- Contoh penggunaan sederhana:
+  - Menyimpan data siswa: nama, umur, nilai
+  - Mengakses nilai tertentu berdasarkan key

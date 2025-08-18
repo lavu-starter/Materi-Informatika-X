@@ -1,0 +1,9 @@
+# Looping Lanjutan
+- Looping dengan list dan dictionary
+- Nested loop sederhana
+- Break & continue
+- Contoh penggunaan:
+  - Menampilkan semua elemen list
+  - Menghitung jumlah nilai genap
+  - Menampilkan data dictionary siswa
+  - Membuat pola sederhana dengan nested loop

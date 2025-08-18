@@ -1,0 +1,12 @@
+# Pengenalan Modularisasi
+- Modularisasi: memecah program menjadi modul atau fungsi terpisah
+- Manfaat:
+  - Mempermudah pemeliharaan kode
+  - Kode lebih rapi dan mudah dipahami
+- Cara:
+  1. Buat file modul Python (misal: hitung.py) dengan fungsi-fungsi tertentu
+  2. Import modul di file utama
+  3. Panggil fungsi dari modul
+- Contoh penggunaan:
+  - Modul hitung.py dengan fungsi tambah(a, b) dan kali(a, b)
+  - File utama memanggil fungsi tersebut

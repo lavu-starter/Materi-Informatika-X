@@ -1,0 +1,12 @@
+# Algoritma Problem Solving Lanjutan
+- Membuat algoritma untuk kasus nyata
+  - Pemesanan makanan/minuman
+  - Kalkulator sederhana (penjumlahan, perkalian, pembagian, pengurangan)
+  - Penentuan status kelulusan siswa
+- Langkah-langkah:
+  1. Buat pseudocode
+  2. Implementasikan dalam Python
+- Contoh:
+  - Program menghitung total belanja dengan diskon
+  - Program menentukan grade nilai siswa (A/B/C/D/E)
+  - Program menentukan lulus/tidak berdasarkan nilai rata-rata
