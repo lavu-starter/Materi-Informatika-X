@@ -1,0 +1,60 @@
+Oke 👍 kita lanjut ke **Bab 7: Studi Kasus Mini**.
+Bab ini akan menggabungkan semua konsep sebelumnya: tipe data, input-output, percabangan, perulangan, struktur data, dan fungsi. Materi `.md` dulu, nanti `.py` untuk latihan.
+
+---
+
+# 07\_Studi\_Kasus\_Mini.md
+
+## 🎯 Tujuan Pembelajaran
+
+* Menggabungkan semua konsep Python dasar.
+* Melatih logika berpikir secara menyeluruh.
+* Meningkatkan kemampuan menyelesaikan masalah nyata secara bertahap.
+
+---
+
+## 🔎 Studi Kasus: Program Penilaian Siswa
+
+Program ini akan:
+
+1. Meminta **nama** dan **jumlah mata pelajaran**.
+2. Meminta **nilai setiap mata pelajaran**.
+3. Menghitung **rata-rata nilai**.
+4. Menentukan **kategori nilai**:
+
+   * ≥ 90 → A
+   * 75–89 → B
+   * 60–74 → C
+   * <60 → D
+5. Menampilkan **laporan akhir**.
+
+---
+
+## 🖊️ Algoritma Singkat
+
+1. Input nama siswa.
+2. Input jumlah mata pelajaran.
+3. Buat list kosong untuk menampung nilai.
+4. Gunakan perulangan untuk memasukkan nilai setiap mata pelajaran.
+5. Hitung rata-rata nilai.
+6. Gunakan percabangan untuk menentukan kategori nilai.
+7. Tampilkan laporan siswa lengkap.
+
+---
+
+## 🧠 Latihan Logika
+
+1. Modifikasi program agar juga menampilkan **nilai tertinggi dan terendah**.
+2. Tambahkan **fungsi** untuk menghitung rata-rata dan kategori nilai.
+3. Tambahkan dictionary untuk menyimpan data siswa secara lengkap: nama, nilai, rata-rata, dan kategori.
+
+---
+
+## 🏁 Kesimpulan
+
+* Program mini ini menggabungkan semua konsep Python: input, output, percabangan, perulangan, list, dictionary, dan fungsi.
+* Melatih berpikir logis dan membuat kode lebih terstruktur.
+* Menjadi dasar untuk proyek Python yang lebih kompleks di masa depan.
+
+---
+
