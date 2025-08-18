@@ -1,0 +1,98 @@
+Oke 👍 kita lanjut ke **Bab 6: Fungsi (Function) di Python**.
+Seperti biasa, saya buat dulu versi materi `.md`, nanti kita buat `.py` untuk latihan kodenya.
+
+---
+
+# 06\_Fungsi.md
+
+## 🎯 Tujuan Pembelajaran
+
+* Memahami apa itu fungsi di Python.
+* Mengetahui cara membuat fungsi sendiri.
+* Melatih logika dengan membuat fungsi untuk berbagai kasus sederhana.
+
+---
+
+## 🔎 Apa itu Fungsi?
+
+Fungsi adalah **sepotong kode yang bisa dipanggil ulang** untuk melakukan tugas tertentu.
+Ibaratnya seperti **alat atau mesin**, kita tinggal memanggilnya tanpa menulis kode dari awal.
+
+Contoh sehari-hari:
+
+* Mesin kopi → tinggal tekan tombol, kopi siap.
+* Kalkulator → tinggal tekan angka dan operasi, hasil keluar.
+
+---
+
+## 🖊️ Membuat Fungsi Sederhana
+
+Struktur dasar:
+
+```python
+def nama_fungsi():
+    # kode yang dijalankan
+    print("Halo, dunia!")
+```
+
+Memanggil fungsi:
+
+```python
+nama_fungsi()  # akan menampilkan "Halo, dunia!"
+```
+
+---
+
+## 🔄 Fungsi dengan Parameter
+
+Parameter adalah **data yang dikirim ke fungsi**.
+
+Contoh:
+
+```python
+def sapa(nama):
+    print("Halo,", nama)
+
+sapa("Budi")  # Output: Halo, Budi
+```
+
+---
+
+## ➕ Fungsi dengan Nilai Kembalian (Return)
+
+Fungsi bisa mengembalikan hasil menggunakan `return`.
+
+Contoh:
+
+```python
+def kali(a, b):
+    return a * b
+
+hasil = kali(5, 3)
+print("Hasil perkalian:", hasil)  # Output: 15
+```
+
+---
+
+## 🧠 Latihan Logika
+
+1. Buat fungsi `luas_persegi(sisi)` yang menghitung luas persegi.
+
+   * Input: `4`
+   * Output: `16`
+
+2. Buat fungsi `cek_genap(angka)` yang mengembalikan True jika angka genap, False jika ganjil.
+
+3. Buat fungsi `salam(nama)` yang menampilkan `"Selamat pagi, [nama]"`.
+
+---
+
+## 🏁 Kesimpulan
+
+* Fungsi → mempermudah kode, bisa dipanggil berulang.
+* Parameter → input ke fungsi.
+* Return → output dari fungsi.
+* Fungsi membuat program lebih **modular dan rapi**.
+
+---
+
