@@ -1,0 +1,97 @@
+Oke, kita lanjut 🚀 ke **Bab 3: Logika Percabangan (if-else)**.
+Seperti sebelumnya, saya buat dulu versi materi `.md` agar jelas konsepnya, lalu nanti kita bikin file `.py` untuk latihan kodenya.
+
+---
+
+# 03\_Logika\_Percabangan.md
+
+## 🎯 Tujuan Pembelajaran
+
+* Memahami bagaimana program bisa mengambil keputusan.
+* Mengenal percabangan `if`, `elif`, dan `else` di Python.
+* Melatih logika dengan studi kasus sederhana.
+
+---
+
+## 🔎 Apa itu Percabangan?
+
+Percabangan adalah **logika pengambilan keputusan** dalam program.
+Ibarat jalan bercabang: kalau kondisi tertentu benar → ambil jalan A, kalau tidak → ambil jalan B.
+
+Contoh sehari-hari:
+
+* Kalau lapar → makan.
+* Kalau hujan → bawa payung, kalau tidak → cukup pakai topi.
+
+---
+
+## 🖊️ Percabangan `if`
+
+Struktur dasar:
+
+```python
+if kondisi:
+    # kode dijalankan jika kondisi True
+```
+
+Contoh:
+
+```python
+umur = 18
+if umur >= 17:
+    print("Kamu sudah cukup umur untuk membuat KTP.")
+```
+
+---
+
+## 🔄 Percabangan `if-else`
+
+Jika kondisi **benar (True)** → jalankan blok `if`.
+Jika kondisi **salah (False)** → jalankan blok `else`.
+
+```python
+umur = 15
+if umur >= 17:
+    print("Boleh membuat KTP.")
+else:
+    print("Belum boleh membuat KTP.")
+```
+
+---
+
+## 🔀 Percabangan `if-elif-else`
+
+Untuk banyak kondisi, gunakan `elif` (else if).
+
+```python
+nilai = 80
+
+if nilai >= 90:
+    print("Nilai kamu A")
+elif nilai >= 75:
+    print("Nilai kamu B")
+elif nilai >= 60:
+    print("Nilai kamu C")
+else:
+    print("Nilai kamu D")
+```
+
+---
+
+## 🧠 Latihan Logika
+
+1. Program minta input angka. Jika ganjil → tulis "Angka ganjil", kalau genap → tulis "Angka genap".
+2. Program minta input umur. Jika < 13 → "Anak-anak", 13–17 → "Remaja", ≥18 → "Dewasa".
+3. Program minta password. Jika benar → "Akses diterima", kalau salah → "Akses ditolak".
+
+---
+
+## 🏁 Kesimpulan
+
+* `if` → digunakan jika ada **satu kondisi**.
+* `if-else` → digunakan jika ada **dua kemungkinan**.
+* `if-elif-else` → digunakan jika ada **banyak kondisi**.
+* Percabangan membantu program **berpikir logis** seperti manusia dalam mengambil keputusan.
+
+---
+
