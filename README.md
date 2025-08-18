@@ -1,4 +1,4 @@
-# Materi Logika Python untuk Pemula
+# Materi Logika Python Kelas X Jenjang SMK
 
 Repo ini berisi materi pembelajaran **Python dasar** yang fokus pada **logika pemrograman** untuk siswa SMK atau pemula.  
 Setiap bab dilengkapi dengan **materi teori (.md)** dan **latihan kode (.py)** yang interaktif.  
