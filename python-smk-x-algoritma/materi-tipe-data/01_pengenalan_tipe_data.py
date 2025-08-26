@@ -23,24 +23,44 @@ print(f"{'Umur':<10}: {umur:<30} | Tipe: {type(umur).__name__}")
 print(f"{'Tahun':<10}: {tahun:<30} | Tipe: {type(tahun).__name__}")
 print("-" * 50)
 
-# Data diri
+# Data diri dan Tabel
 nama = "Khoirur Rozaq"
 alamat = "Jl. Contoh No. 123, Jakarta"
 umur = 17
 tahun = 2025
-
-# Membuat tabel
 print("+" + "-"*15 + "+" + "-"*35 + "+" + "-"*10 + "+")
 print(f"| {'Field':^13} | {'Nilai':^33} | {'Tipe':^8} |")
 print("+" + "-"*15 + "+" + "-"*35 + "+" + "-"*10 + "+")
-
 print(f"| {'Nama':<13} | {nama:<33} | {type(nama).__name__:^8} |")
 print(f"| {'Alamat':<13} | {alamat:<33} | {type(alamat).__name__:^8} |")
 print(f"| {'Umur':<13} | {umur:<33} | {type(umur).__name__:^8} |")
 print(f"| {'Tahun':<13} | {tahun:<33} | {type(tahun).__name__:^8} |")
-
 print("+" + "-"*15 + "+" + "-"*35 + "+" + "-"*10 + "+")
 
+# Data diri Secara Otomatis
+data = {
+    "Nama": "Khoirur Rozaq",
+    "Alamat": "Jl. Contoh No. 123, Jakarta",
+    "Umur": 17,
+    "Tahun": 2025
+}
+
+# Menghitung lebar kolom otomatis
+field_width = max(len(field) for field in data.keys()) + 2
+value_width = max(len(str(value)) for value in data.values()) + 2
+type_width = max(len(str(type(value).__name__)) for value in data.values()) + 2
+
+# Membuat garis tabel
+line = f"+{'-'*field_width}+{'-'*value_width}+{'-'*type_width}+"
+print(line)
+print(f"| {'Field':^{field_width}} | {'Nilai':^{value_width}} | {'Tipe':^{type_width}} |")
+print(line)
+
+# Menampilkan isi tabel
+for field, value in data.items():
+    print(f"| {field:<{field_width}} | {str(value):<{value_width}} | {type(value).__name__:<{type_width}} |")
+
+print(line)
 
 # Float (float) → bilangan pecahan/desimal
 suhu = 36.5
@@ -87,5 +107,6 @@ print(data5, "=>", type(data5))
 # str  → teks
 # bool → logika True/False
 # ========================================
+
 
 
