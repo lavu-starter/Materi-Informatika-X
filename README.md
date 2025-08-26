@@ -46,3 +46,4 @@ Setiap bab dilengkapi dengan **materi teori (.md)** dan **latihan kode (.py)** y
 
 Link Pengumpulan Tugas
 https://padlet.com/coolrozaq/breakout-room/BbjnqxrmEV1k493Q-B8nYzL404AY8zV4L
+https://padlet.com/coolrozaq/breakout-room/GyPQvXljYLK8v3OL-B8nYzL404AY8zV4L
