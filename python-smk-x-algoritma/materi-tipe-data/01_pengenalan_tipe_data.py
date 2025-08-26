@@ -9,13 +9,11 @@ print("Umur:", umur, "| Tipe:", type(umur))
 print("Tahun:", tahun, "| Tipe:", type(tahun))
 print("-" * 40)
 
-# Data diri
+# Data diri Menampilkan data dengan format rapi
 nama = "Khoirur Rozaq"
 alamat = "Jl. Contoh No. 123, Jakarta"
 umur = 17
 tahun = 2025
-
-# Menampilkan data dengan format rapi
 print("-" * 50)
 print(f"{'DATA DIRI':^50}")  # Judul tengah
 print("-" * 50)
@@ -89,4 +87,5 @@ print(data5, "=>", type(data5))
 # str  → teks
 # bool → logika True/False
 # ========================================
+
 
