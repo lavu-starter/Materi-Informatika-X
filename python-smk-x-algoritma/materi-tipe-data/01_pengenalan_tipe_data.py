@@ -10,8 +10,10 @@ print("Tahun:", tahun, "| Tipe:", type(tahun))
 print("-" * 40)
 
 # Data diri Menampilkan data dengan format rapi
+
 nama = "Khoirur Rozaq"
 alamat = "Jl. Contoh No. 123, Jakarta"
+nomor_wa = "+62 812-3456-7890"
 umur = 17
 tahun = 2025
 print("-" * 50)
@@ -19,6 +21,7 @@ print(f"{'DATA DIRI':^50}")  # Judul tengah
 print("-" * 50)
 print(f"{'Nama':<10}: {nama:<30} | Tipe: {type(nama).__name__}")
 print(f"{'Alamat':<10}: {alamat:<30} | Tipe: {type(alamat).__name__}")
+print(f"{'WhatsApp':<10}: {nomor_wa:<30} | Tipe: {type(nomor_wa).__name__}")
 print(f"{'Umur':<10}: {umur:<30} | Tipe: {type(umur).__name__}")
 print(f"{'Tahun':<10}: {tahun:<30} | Tipe: {type(tahun).__name__}")
 print("-" * 50)
@@ -107,6 +110,7 @@ print(data5, "=>", type(data5))
 # str  → teks
 # bool → logika True/False
 # ========================================
+
 
 
 
